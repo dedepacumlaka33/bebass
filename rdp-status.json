@@ -8,8 +8,8 @@
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-11T00:24:40Z",
-  "expires_at": "2026-10-11T06:19:40Z",
+  "started_at": "2026-10-11T00:39:23Z",
+  "expires_at": "2026-10-11T06:34:23Z",
   "duration_menit": 355,
   "run_id": "38097289961",
   "run_number": "3",
@@ -41,17 +41,17 @@
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
   "grafis": {
-    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
-    "mode": "software",
-    "mesa": "26.2.4",
-    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
-    "adapters": "Microsoft Hyper-V Video",
-    "dir": "C:\\XyRDP\\grafis",
     "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
+    "install": "mesa 26.2.4.0 [Mesa/X.org]",
+    "mode": "software",
+    "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)",
+    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
     "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat.",
     "debug": "",
-    "install": "mesa 26.2.4.0 [Mesa/X.org]",
-    "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)"
+    "mesa": "26.2.4",
+    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
+    "dir": "C:\\XyRDP\\grafis",
+    "adapters": "Microsoft Hyper-V Video"
   },
   "extras": {
     "lightshot": "skip",
@@ -65,13 +65,13 @@
   "akses": {
     "mode": "tailscale",
     "tailscale": {
-      "status": "failed",
       "note": "Installer Tailscale gagal, exit 1603",
+      "status": "failed",
       "ip": "",
       "magicdns": "",
       "hostname": "",
       "funnel_addr": ""
     }
   },
-  "stopped_at": "2026-10-11T00:25:26Z"
+  "stopped_at": "2026-10-11T00:40:10Z"
 }
