@@ -1,6 +1,6 @@
 {
   "active": false,
-  "hostname": "rdpfree-6",
+  "hostname": "rdpfree-7",
   "os": "Microsoft Windows Server 2022 Datacenter",
   "os_build": "10.0.20348",
   "os_style": "Windows 10 look",
@@ -8,12 +8,12 @@
   "rdp_user": "xyadmin",
   "rdp_listen": ":::3389 (svchost) | 0.0.0.0:3389 (svchost) + handshake ok via 127.0.0.1",
   "rdp_denyts": true,
-  "started_at": "2026-10-11T01:10:00Z",
-  "expires_at": "2026-10-11T07:05:00Z",
+  "started_at": "2026-10-11T01:32:39Z",
+  "expires_at": "2026-10-11T07:27:39Z",
   "duration_menit": 355,
-  "run_id": "38100296446",
-  "run_number": "6",
-  "run_url": "https://github.com/dedepacumlaka33/bebass/actions/runs/38100296446",
+  "run_id": "38102062892",
+  "run_number": "7",
+  "run_url": "https://github.com/dedepacumlaka33/bebass/actions/runs/38102062892",
   "mode": "bersih+win10",
   "win10": {
     "look": "ok",
@@ -41,17 +41,17 @@
     "note": "Host siap dipakai klien XyDesk Remote mode Koneksi RDP (Host+Port tunnel). Kunci WinStations\\RDP-Tcp sengaja TIDAK ditulis supaya listener 3389 tidak mati di runner GitHub."
   },
   "grafis": {
-    "adapters": "Microsoft Hyper-V Video",
-    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
-    "mesa": "26.2.4",
-    "mode": "software",
     "vulkan": "llvmpipe (LLVM 23.1.2, 256 bits) (PHYSICAL_DEVICE_TYPE_CPU)",
-    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll",
-    "debug": "",
     "install": "mesa 26.2.4.0 [Mesa/X.org]",
+    "mode": "software",
     "note": "GPU software (CPU): OpenGL 4.6 (llvmpipe) + Vulkan lavapipe + WARP bawaan. Runner GitHub tanpa GPU fisik; 3D berat tetap lambat.",
+    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)",
+    "adapters": "Microsoft Hyper-V Video",
+    "debug": "",
+    "mesa": "26.2.4",
+    "opengl": "4.6 (Core Profile) Mesa 26.2.4 (git-9a0169f2a7) | llvmpipe (LLVM 23.1.2, 256 bits) | Mesa",
     "dir": "C:\\XyRDP\\grafis",
-    "loader": "vulkan-1.dll 1.4.363.0 (LunarG)"
+    "files": "opengl32.dll,libgallium_wgl.dll,vulkan_lvp.dll,vulkan-1.dll"
   },
   "extras": {
     "lightshot": "skip",
@@ -64,8 +64,8 @@
   },
   "akses": {
     "tailscale": {
-      "status": "failed",
       "note": "Installer Tailscale gagal, exit 1603",
+      "status": "failed",
       "ip": "",
       "magicdns": "",
       "hostname": "",
@@ -73,5 +73,5 @@
     },
     "mode": "tailscale"
   },
-  "stopped_at": "2026-10-11T01:10:44Z"
+  "stopped_at": "2026-10-11T01:33:23Z"
 }
